@@ -1,6 +1,6 @@
 // authors.ts
 import { Hono } from "hono";
-import apiRoute from "./api.ts";
+import apiRoute from "./api/index.ts";
 import frontRoute from "./front.ts";
 
 const app = new Hono();

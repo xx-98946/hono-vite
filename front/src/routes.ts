@@ -25,6 +25,12 @@ const routes = [
     name: "导航",
     title: "导航",
   },
+  {
+    path: "/api",
+    component: lazy(() => import("./pages/Api")),
+    name: "接口",
+    title: "接口",
+  },
 ];
 
 export default routes;

@@ -28,6 +28,9 @@ importers:
       solid-js:
         specifier: ^1.9.3
         version: 1.9.3
+      tailwind-merge:
+        specifier: ^2.5.4
+        version: 2.5.4
     devDependencies:
       "@tailwindcss/typography":
         specifier: ^0.5.15
@@ -1559,6 +1562,12 @@ packages:
       }
     engines: { node: ">= 0.4" }
 
+  tailwind-merge@2.5.4:
+    resolution:
+      {
+        integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==,
+      }
+
   tailwindcss@3.4.14:
     resolution:
       {
@@ -2518,6 +2527,8 @@ snapshots:
       ts-interface-checker: 0.1.13
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  tailwind-merge@2.5.4: {}
 
   tailwindcss@3.4.14:
     dependencies:

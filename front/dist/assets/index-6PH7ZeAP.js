@@ -1,4 +1,4 @@
-var vc=Object.defineProperty;var yc=(a,e,t)=>e in a?vc(a,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[e]=t;var Q=(a,e,t)=>yc(a,typeof e!="symbol"?e+"":e,t);import{t as $l,i as Dc,c as Mc}from"./index-lBndovVt.js";const Lc=`## Usage
+var vc=Object.defineProperty;var yc=(a,e,t)=>e in a?vc(a,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[e]=t;var Q=(a,e,t)=>yc(a,typeof e!="symbol"?e+"":e,t);import{t as $l,i as Dc,c as Mc}from"./index-SC541THC.js";const Lc=`## Usage
 
 \`\`\`bash
 $ npm install # or pnpm install or yarn install
