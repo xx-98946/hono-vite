@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "@/": "./",
+    "@std/path": "jsr:@std/path@^1.0.7",
+    "hono": "jsr:@hono/hono@^4.6.8",
+    "marked": "npm:marked"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch-hmr main.tsx"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
