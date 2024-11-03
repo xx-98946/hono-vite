@@ -19,6 +19,12 @@ const routes = [
     name: "测试",
     title: "测试",
   },
+  {
+    path: "/link",
+    component: lazy(() => import("./pages/Link")),
+    name: "导航",
+    title: "导航",
+  },
 ];
 
 export default routes;
